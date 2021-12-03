@@ -1,8 +1,7 @@
-//
-// This is only a SKELETON file for the 'Rectangles' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
+const GraphBuilder = require('./lib/GraphBuilder');
 
-export function count() {
-  throw new Error('Remove this statement and implement this function');
+export function count(grid) {
+  const graphBuilder = new GraphBuilder();
+  graphBuilder.readGrid(grid);
+  return graphBuilder.rectangleCount;
 }

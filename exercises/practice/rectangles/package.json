@@ -24,8 +24,8 @@
   },
   "dependencies": {},
   "scripts": {
-    "test": "jest --no-cache ./*",
-    "watch": "jest --no-cache --watch ./*",
+    "test": "jest --no-cache",
+    "watch": "jest --no-cache --watch .",
     "lint": "eslint ."
   }
 }
